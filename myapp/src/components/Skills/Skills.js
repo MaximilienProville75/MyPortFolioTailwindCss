@@ -12,6 +12,9 @@ export default function Skills() {
           icon={faBrain}
           className="text-9xl text-center text-purple-500"
         />
+        <p className="text-7xl text-center font-bold text-purple-500 mt-5">
+          Skills & Technology
+        </p>
         <p className="text-lg mt-14">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever
@@ -23,7 +26,7 @@ export default function Skills() {
       </div>
 
       <div className="mt-24">
-        <div className="flex justify-evenly">
+        <div className="flex justify-center">
           {skills.map((skill) => {
             return <SkillList skills={skill} />;
           })}
