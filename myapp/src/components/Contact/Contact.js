@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -25,41 +27,72 @@ export default function Contact() {
   }
 
   return (
-    <div className="bg-purple-900 pt-20 relative" id="Contact">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+    <div
+      className="bg-purple-900 pt-20 relative flex flex-row pb-20"
+      id="Contact"
+    >
+      {/* Map System */}
+      <div className="w-7/12 relative ring-8 ring-purple-500 h-auto ml-5 rounded-xl">
+        <div className="w-screen">
           <iframe
             width="100%"
             height="100%"
             title="map"
+            className="absolute inset-0 rounded-xl"
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=Rue+Claude+Decaen&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=Paris+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="Information">
+          <div className="absolute flex bg-gray-900 w-auto m-2 p-5 rounded shadow-md bottom-0">
             <div className="AddressInfos">
-              <h2 className="AddressTitle">ADDRESS</h2>
+              <h2 className="text-gray-200 font-bold text-xl first-letter:text-purple-500 mb-2">
+                ADDRESS
+              </h2>
               <p className="AddressDesc">
                 Claude Decaen St. <br />
                 Paris, 75012
               </p>
             </div>
-            <div className="ContactsInfos">
-              <h2 className="EmailTitle">EMAIL</h2>
-              <a className="EmailDesc">maximilien.proville77@gmail.com</a>
-              <h2 className="PhoneTitle">PHONE</h2>
-              <p className="PhoneNb">+33 7 68 55 02 14</p>
+            <div className="ml-10">
+              <h2 className="font-bold text-xl text-gray-200 first-letter:text-purple-500">
+                EMAIL
+              </h2>
+              <a className="leading-relaxed text-purple-500">
+                maximilien.proville77@gmail.com
+              </a>
+              <h2 className="font-bold text-xl text-gray-200 first-letter:text-purple-500 mt-5">
+                PHONE
+              </h2>
+              <p className="text-gray-400">+33 7 68 55 02 14</p>
             </div>
           </div>
         </div>
       </div>
       {/* ContactForm */}
-      <form netlify name="contact" className="Contact" onSubmit={handleSubmit}>
-        <h2>Hire Me</h2>
-        <p>Short Motivational Speech</p>
-        <div className="FormInfos">
+      <form
+        netlify
+        name="contact"
+        className="ml-10 bg-zinc-900/80 p-10 w-full mr-5  flex flex-col ring-8 ring-purple-500 h-auto rounded-xl ml-10"
+        onSubmit={handleSubmit}
+      >
+        <FontAwesomeIcon
+          icon={faAddressCard}
+          className="text-7xl text-purple-500 m-auto mb-5"
+        />
+        <h2 className="text-5xl font-bold text-purple-500 text-center">
+          Hire Me
+        </h2>
+        <p className="text-lg mt-5 mb-5">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged.
+        </p>
+        <div className="mb-4">
           <label htmlFor="name" className="Name">
             Name
           </label>
@@ -67,11 +100,11 @@ export default function Contact() {
             type="text"
             id="name"
             name="name"
-            className="NameInp"
+            className="w-full bg-gray-500 rounded border border-gray-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className="FormInfos">
+        <div className="mb-4">
           <label htmlFor="email" className="Email">
             Email
           </label>
@@ -79,7 +112,7 @@ export default function Contact() {
             type="email"
             id="email"
             name="email"
-            className="EmailInp"
+            className="w-full bg-gray-500 rounded border border-gray-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
@@ -89,11 +122,14 @@ export default function Contact() {
           </label>
           <textarea
             id="message"
-            className="Message"
+            className="w-full bg-gray-500 rounded border border-gray-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             onChange={(e) => setMessage(e.target.value)}
           />
         </div>
-        <button type="submit" className="SubmitForm">
+        <button
+          type="submit"
+          className="mt-4 text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-500 rounded text-lg"
+        >
           SUBMIT
         </button>
       </form>

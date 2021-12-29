@@ -25,8 +25,8 @@ export default function Skills() {
         </p>
       </div>
 
-      <div className="mt-24">
-        <div className="flex justify-center">
+      <div className="mt-24 flex flex-center ">
+        <div className="flex justify-center align-center w-5/6 m-auto">
           {skills.map((skill) => {
             return <SkillList skills={skill} />;
           })}
