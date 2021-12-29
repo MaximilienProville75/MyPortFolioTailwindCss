@@ -32,7 +32,7 @@ export default function Contact() {
       id="Contact"
     >
       {/* Map System */}
-      <div className="w-7/12 relative ring-8 ring-purple-500 h-auto ml-5 rounded-xl">
+      <div className="w-7/12 relative ring-8 ring-purple-500 h-auto ml-5 rounded-xl shadow-purple-300/80 shadow-2xl ">
         <div className="w-screen">
           <iframe
             width="100%"
@@ -45,7 +45,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Paris+&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="absolute flex bg-gray-900 w-auto m-2 p-5 rounded shadow-md bottom-0">
+          <div className="absolute flex bg-gray-900 w-auto m-2 p-5 rounded shadow-md bottom-0 shadow-purple-300/80 ">
             <div className="AddressInfos">
               <h2 className="text-gray-200 font-bold text-xl first-letter:text-purple-500 mb-2">
                 ADDRESS
@@ -74,7 +74,7 @@ export default function Contact() {
       <form
         netlify
         name="contact"
-        className="ml-10 bg-zinc-900/80 p-10 w-full mr-5  flex flex-col ring-8 ring-purple-500 h-auto rounded-xl ml-10"
+        className="ml-10 bg-zinc-900/80 p-10 w-full mr-5  flex flex-col ring-8 ring-purple-500 h-auto rounded-xl shadow-purple-300/80 shadow-2xl "
         onSubmit={handleSubmit}
       >
         <FontAwesomeIcon
