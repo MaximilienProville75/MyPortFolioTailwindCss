@@ -6,7 +6,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
-    <div className="ProjectsDescription" id="Projects">
+    <div className="relative bg-purple-900 mb-0" id="Projects">
       <div className="ProjectsOverview">
         <FontAwesomeIcon icon={faCode} />
         <div className="ProjectText"></div>

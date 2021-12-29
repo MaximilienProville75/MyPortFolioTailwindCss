@@ -25,7 +25,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="ContactOverview" id="Contact">
+    <div className="bg-purple-900" id="Contact">
       <div className="MapOverview">
         <div className="Map">
           <iframe
