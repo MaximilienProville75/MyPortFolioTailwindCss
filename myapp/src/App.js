@@ -12,7 +12,6 @@ import wave2 from "./layered-waves-haikei2.svg";
 import wave3 from "./layered-waves-haikei3.svg";
 
 function App() {
-  console.log(projects);
   return (
     <main className="bg-gray-900 text-gray-400 body-font ">
       <Navbar />
