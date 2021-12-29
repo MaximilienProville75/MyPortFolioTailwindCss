@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div className=" bg-purple-900 mb-0 pb-10  " id="Projects">
       <div className="text-center pt-20">
-        <FontAwesomeIcon icon={faCode} className="text-9xl text-center" />
+        <FontAwesomeIcon icon={faCode} className="text-9xl text-center " />
         <p className="text-lg mt-14">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever
