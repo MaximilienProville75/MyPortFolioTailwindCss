@@ -17,6 +17,7 @@ module.exports = {
       animation: {
         "fade-in-down": "fade-in-down 5s ease-out",
       },
+      screens: { custombp: { raw: "(max-height: 650px),(min-width:0px)" } },
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],

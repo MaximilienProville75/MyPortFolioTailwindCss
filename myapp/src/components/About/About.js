@@ -8,9 +8,9 @@ export default function About() {
         <div className="p-5 flex  items-center max-w-full">
           <div className="PresentationImg">
             {/* Text Desc */}
-            <div className=" max-w-5xl flex flex-col justify-center mb-14">
+            <div className=" max-w-5xl flex flex-col justify-center mb-14 ">
               <h1 className="text-7xl font-bold text-center first-letter:text-purple-500 first-letter:text-9xl">
-                Hi, I'm Max
+                HI, I'm Max
                 <br />
                 Junior Front-End Developer
               </h1>
@@ -24,19 +24,19 @@ export default function About() {
               </p>
             </div>
             {/* Button */}
-            <div className="flex flex-row justify-evenly  place-content-center">
+            <div className="flex flex-row justify-evenly  place-content-center custombp:flex-wrap">
               <div className="ButtonsProjects">
                 <a
                   href="#Projects"
-                  className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600 hover:scale-110 shadow-purple-300/80 shadow-lg"
+                  className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600  shadow-purple-300/80 shadow-lg hover:scale-150 "
                 >
                   See Past Project
                 </a>
               </div>
-              <div className="ButtonsContact">
+              <div className="custombp:mt-12 custombp:mb-5 ">
                 <a
                   href="#Contact"
-                  className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600  hover:transition  hover:scale-110 animate-pulse shadow-purple-300/80 shadow-lg"
+                  className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600 hover:scale-150  animate-pulse shadow-purple-300/80 shadow-lg "
                 >
                   Work With Me
                 </a>
@@ -44,7 +44,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex justify-center ">
+          <div className="flex custombp:hidden justify-center ">
             <img className="w-10/12 h-full" alt="Hero" src={coderImg} />
           </div>
         </div>
