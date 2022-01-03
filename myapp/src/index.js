@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
-import MainCvAch from "../../cv_and_achievements/MainCvAch.js";
 
 ReactDOM.render(
   <React.StrictMode>

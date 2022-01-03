@@ -24,7 +24,7 @@ export default function About() {
               </p>
             </div>
             {/* Button */}
-            <div className="flex flex-row justify-evenly  place-content-center custombp:flex-wrap">
+            <div className="flex flex-row justify-evenly  place-content-center ">
               <div className="ButtonsProjects">
                 <a
                   href="#Projects"
@@ -33,7 +33,7 @@ export default function About() {
                   See Past Project
                 </a>
               </div>
-              <div className="custombp:mt-12 custombp:mb-5 ">
+              <div className="">
                 <a
                   href="#Contact"
                   className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600 hover:scale-150  animate-pulse shadow-purple-300/80 shadow-lg "
@@ -44,7 +44,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex custombp:hidden justify-center ">
+          <div className="flex  justify-center ">
             <img className="w-10/12 h-full" alt="Hero" src={coderImg} />
           </div>
         </div>

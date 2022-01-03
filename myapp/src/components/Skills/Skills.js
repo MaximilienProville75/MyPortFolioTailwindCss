@@ -6,7 +6,7 @@ import { skills } from "../../skillsDataFile";
 
 export default function Skills() {
   return (
-    <div className=" custombp:p-1" id="Skills">
+    <div className=" " id="Skills">
       <div className="text-center pt-20">
         <FontAwesomeIcon
           icon={faBrain}
@@ -26,7 +26,7 @@ export default function Skills() {
       </div>
 
       <div className="mt-24 flex flex-center ">
-        <div className="flex justify-center align-center w-5/6 m-auto  custombp:flex-col">
+        <div className="flex justify-center align-center w-5/6 m-auto  ">
           {skills.map((skill) => {
             return <SkillList skills={skill} />;
           })}
