@@ -12,7 +12,7 @@ export default function Projects() {
         <p className="text-7xl text-center font-bold mt-5 ">
           Projects I've Built
         </p>
-        <p className="text-lg mt-14">
+        <p className="text-lg mt-14 p-10">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

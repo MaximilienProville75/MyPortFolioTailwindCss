@@ -36,7 +36,8 @@ export default function About() {
               <div className="">
                 <a
                   href="#Contact"
-                  className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600 hover:scale-150  animate-pulse shadow-purple-300/80 shadow-lg "
+                  className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600 hover:scale-150  animate-pulse shadow-purple-300/80 shadow-lg
+                  bg-gradient-to-r from-purple-700 to-purple-400 "
                 >
                   Work With Me
                 </a>

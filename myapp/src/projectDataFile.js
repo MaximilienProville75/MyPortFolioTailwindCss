@@ -22,6 +22,18 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Jamming",
+    date: "2021-01-09",
+    pageLink:
+      "//www.figma.com/file/HrhHDrelT0Y3a3pVpiyiCA/Projet-10?node-id=0%3A1",
+    gitHub: "//github.com/MaximilienProville75/Jamming-",
+    technology: ["HTML", "CSS", "JavaScript", "React.JS"],
+    description:
+      "React App for custom playlists that combines multiple components, interactive search functionality, and requests to the Spotify API.",
+    picture: "Jamming.png",
+  },
+  {
+    id: 4,
     title: "Ravenous",
     date: "",
     pageLink: "",
@@ -31,7 +43,7 @@ export const projects = [
     picture: "Ravenous.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "GameOn",
     date: "2021-07-21",
     pageLink: "//maximilienproville75.github.io/ProvilleMaximilien_4/",
@@ -41,7 +53,7 @@ export const projects = [
     picture: "GameOn.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "FishEyes",
     date: "2021-09-27",
     pageLink:
@@ -51,19 +63,19 @@ export const projects = [
     description: "Site de photographie.",
     picture: "FishEyes.png",
   },
-  // {
-  //   id: 6,
-  //   title: "Les petits plats",
-  //   date: "",
-  //   pageLink: "",
-  //   gitHub: "//github.com/MaximilienProville75/ProvilleMaximilien_P7",
-  //   technology: ["HTML", "CSS", "JavaScript"],
-  //   description: "Algorithme de recherche de recette",
-  //   picture: "",
-  // },
-
   {
     id: 7,
+    title: "Les petits plats",
+    date: "",
+    pageLink: "//github.com/MaximilienProville75/ProvilleMaximilien_P7",
+    gitHub: "//github.com/MaximilienProville75/ProvilleMaximilien_P7",
+    technology: ["HTML", "CSS", "JavaScript"],
+    description: "Algorithme de recherche de recette",
+    picture: "Les Petits Plats.png",
+  },
+
+  {
+    id: 8,
     title: "Reservia",
     date: "2021-05-28",
     pageLink: "//maximilienproville75.github.io/ProvilleMaximilien_2_12052021/",
@@ -74,7 +86,7 @@ export const projects = [
     picture: "Reservia.png",
   },
   {
-    id: 8,
+    id: 9,
     title: "ohMyFood",
     date: "2021-06-29",
     pageLink: "//maximilienproville75.github.io/ProvilleMaximilien_3_31052021/",

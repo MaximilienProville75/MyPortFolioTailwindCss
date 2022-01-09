@@ -13,7 +13,7 @@ export default class SkillList extends React.Component {
           <ul className="flex flex-col items-center">
             {this.props.skills.skills.map((skill) => {
               return (
-                <li className="text-2xl  hover:bg-purple-500 hover:text-white ring-4 rounded-lg ring-purple-500 ring-offset-4 ring-offset-gray-900 p-4 bg-gray-700/50  shadow-purple-300/80 shadow-lg mb-6 w-full items-center ">
+                <li className="text-2xl  hover:bg-gradient-to-r from-purple-700 to-purple-400 hover:text-white ring-4 rounded-lg ring-purple-500 ring-offset-4 ring-offset-gray-900 p-4 bg-gray-700/50  shadow-purple-300/80 shadow-lg mb-6 w-full items-center ">
                   {skill}
                 </li>
               );
