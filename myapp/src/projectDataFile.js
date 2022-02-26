@@ -1,16 +1,41 @@
 export const projects = [
   {
     id: 1,
+    title: "ArgentBank",
+    date: "2021-12-21",
+    pageLink: "",
+    gitHub:
+      "//https://github.com/MaximilienProville75/Proville_P13_10022022/tree/main/argent-bank",
+    technology: ["HTML", "CSS", "React.JS", "Server", "Redux.JS"],
+    description:
+      "Bank Dashboard with login form and redirection to personal account / data",
+    picture: "ArgentBank.png",
+  },
+  {
+    id: 1,
+    title: "Sportsee",
+    date: "2021-12-21",
+    pageLink: "",
+    gitHub:
+      "//github.com/MaximilienProville75/Proville_P12_22012022/tree/main/sportsee",
+    technology: ["HTML", "CSS", "React.JS", "Server"],
+    description:
+      "Fitness Dashboard fetching data from a server depending on the user route",
+    picture: "Sportsee.png",
+  },
+  {
+    id: 2,
     title: "Kasa",
     date: "2021-12-21",
     pageLink: "",
     gitHub: "//github.com/MaximilienProville75/P11_Kasa_React",
     technology: ["HTML", "CSS", "JavaScript", "React.JS"],
-    description: "Variant du site AirBnB",
+    description:
+      "React Airbnb Copy, fetching data fomr a json files , routing to different url depending the location ID",
     picture: "Kasa.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Learn At Home",
     date: "2021-11-25",
     pageLink:
@@ -21,7 +46,7 @@ export const projects = [
     picture: "LearnAtHome.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Jamming",
     date: "2021-01-09",
     pageLink:
@@ -33,7 +58,7 @@ export const projects = [
     picture: "Jamming.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Ravenous",
     date: "",
     pageLink: "",
@@ -43,7 +68,7 @@ export const projects = [
     picture: "Ravenous.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "GameOn",
     date: "2021-07-21",
     pageLink: "//maximilienproville75.github.io/ProvilleMaximilien_4/",
@@ -53,7 +78,7 @@ export const projects = [
     picture: "GameOn.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "FishEyes",
     date: "2021-09-27",
     pageLink:
@@ -64,7 +89,7 @@ export const projects = [
     picture: "FishEyes.png",
   },
   {
-    id: 7,
+    id: 8,
     title: "Les petits plats",
     date: "",
     pageLink: "//github.com/MaximilienProville75/ProvilleMaximilien_P7",
@@ -75,7 +100,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Reservia",
     date: "2021-05-28",
     pageLink: "//maximilienproville75.github.io/ProvilleMaximilien_2_12052021/",
@@ -86,7 +111,7 @@ export const projects = [
     picture: "Reservia.png",
   },
   {
-    id: 9,
+    id: 10,
     title: "ohMyFood",
     date: "2021-06-29",
     pageLink: "//maximilienproville75.github.io/ProvilleMaximilien_3_31052021/",

@@ -1,7 +1,15 @@
 export const skills = [
   {
     title: "Technology",
-    skills: ["React.Js", "JavaScript", "CSS", "HTML5", "Figma"],
+    skills: [
+      "React.Js",
+      "Redux.JS",
+      "JavaScript",
+      "TailWindCss",
+      "CSS",
+      "HTML5",
+      "Figma",
+    ],
   },
   {
     title: "Personal Skills",
@@ -11,6 +19,7 @@ export const skills = [
       "Perfectionist",
       "Team Work",
       "Adaptability",
+      "Fast Learner",
     ],
   },
 ];
