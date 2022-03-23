@@ -1,8 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+
 import { default as gitHubLogo } from "/Users/maximilienproville/Desktop/Projet_Perso/MyPortFolio_TailWindCss/myapp/src/assets/github-brands.svg";
-import { default as SourceCode } from "/Users/maximilienproville/Desktop/Projet_Perso/MyPortFolio_TailWindCss/myapp/src/assets/file-code-regular.svg";
 
 export default class Project extends React.Component {
   render() {
@@ -15,18 +13,18 @@ export default class Project extends React.Component {
         <div className="h-5/6 w-100 ">
           <img
             src={require(`./img/${imgSrc}`)}
-            alt={`${this.props.project.title} doesnt load`}
+            alt={`${this.props.project.title} doesn't load`}
             className="h-96 w-fit rounded-3xl ring-4 ring-purple-500 ring-offset-4 ring-offset-gray-900 shadow-purple-300/80 shadow-xl object-cover"
           />
-          <a href={`https:${sourceLink}`} _blank>
+          <a href={`https:${linkGitHub}`} _blank>
             <div className="opacity-0 hover:opacity-100 absolute inset-0 rounded-3xl hover:bg-gray-900/80 pt-5 px-5">
-              <div className="text-4xl font-bold first-letter:text-purple-500 ">
+              <div className="text-4xl font-bold first-letter:text-purple-500 sm:text-2xl">
                 {this.props.project.title}
               </div>
               <div className="pt-5 text-lg">
                 {this.props.project.description}
               </div>
-              <div className="flex flex-row mt-28">
+              <div className="flex flex-row mt-28 sm:invisible">
                 <a href={`https:${linkGitHub}`}>
                   <img
                     src={gitHubLogo}
@@ -36,9 +34,11 @@ export default class Project extends React.Component {
                 </a>
               </div>
               <div>
-                <ul className="absolute bottom-0 font-bold flex flex-row pb-10">
+                <ul className="absolute bottom-0 font-bold flex flex-row pb-10 sm:flex-wrap">
                   {this.props.project.technology.map((tech) => {
-                    return <li className="mr-5 text-2xl">{tech}</li>;
+                    return (
+                      <li className="mr-5 text-2xl sm:text-sm ">{tech}</li>
+                    );
                   })}
                 </ul>
               </div>

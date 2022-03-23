@@ -6,6 +6,7 @@ export const skills = [
       "Redux.JS",
       "JavaScript",
       "TailWindCss",
+      "FireBase",
       "CSS",
       "HTML5",
       "Figma",

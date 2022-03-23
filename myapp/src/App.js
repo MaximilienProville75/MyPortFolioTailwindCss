@@ -1,5 +1,3 @@
-import { projects } from "./projectDataFile";
-
 import "./App.css";
 import About from "./components/About/About";
 import Navbar from "./components/NavBar/NavBar";
@@ -13,7 +11,7 @@ import wave3 from "./layered-waves-haikei3.svg";
 
 function App() {
   return (
-    <main className="bg-gray-900 text-gray-400 body-font ">
+    <main className="bg-gray-900 text-gray-400 body-font sm:overflow-x-hidden">
       <Navbar />
       <About />
       <img src={wave1} alt="bla" className="w-screen z-9 relative -mt-20" />

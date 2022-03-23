@@ -1,12 +1,33 @@
 export const projects = [
   {
     id: 1,
+    title: "Social Net 'Work In Progress'",
+    date: "March 2022",
+    pageLink: "",
+    gitHub: "//github.com/MaximilienProville75/SocialNet",
+    technology: ["React.JS", "Redux.JS", "Firebase", "Tailwind"],
+    description:
+      "Social Media , powered by FireBase / React / Redux / Tailwinds",
+    picture: "SocialNet.png",
+  },
+  {
+    id: 1,
+    title: "Hr Net",
+    date: "February",
+    pageLink: "",
+    gitHub: "//github.com/MaximilienProville75/Proville_P14_23022022",
+    technology: ["HTML", "CSS", "React.JS"],
+    description: "Faites passer une librairie jQuery vers React",
+    picture: "HrNet.png",
+  },
+  {
+    id: 1,
     title: "ArgentBank",
     date: "2021-12-21",
     pageLink: "",
     gitHub:
-      "//https://github.com/MaximilienProville75/Proville_P13_10022022/tree/main/argent-bank",
-    technology: ["HTML", "CSS", "React.JS", "Server", "Redux.JS"],
+      "//github.com/MaximilienProville75/Proville_P13_10022022/tree/main/argent-bank",
+    technology: ["React.JS", "MongoDB", "Redux.JS", "CSS"],
     description:
       "Bank Dashboard with login form and redirection to personal account / data",
     picture: "ArgentBank.png",
@@ -18,7 +39,7 @@ export const projects = [
     pageLink: "",
     gitHub:
       "//github.com/MaximilienProville75/Proville_P12_22012022/tree/main/sportsee",
-    technology: ["HTML", "CSS", "React.JS", "Server"],
+    technology: ["React.JS", "Server", "CSS"],
     description:
       "Fitness Dashboard fetching data from a server depending on the user route",
     picture: "Sportsee.png",
@@ -28,8 +49,9 @@ export const projects = [
     title: "Kasa",
     date: "2021-12-21",
     pageLink: "",
-    gitHub: "//github.com/MaximilienProville75/P11_Kasa_React",
-    technology: ["HTML", "CSS", "JavaScript", "React.JS"],
+    gitHub:
+      "//github.com/MaximilienProville75/Proville_P11_29112021-/tree/main/my-app",
+    technology: ["React.JS", "HTML", "CSS"],
     description:
       "React Airbnb Copy, fetching data fomr a json files , routing to different url depending the location ID",
     picture: "Kasa.png",

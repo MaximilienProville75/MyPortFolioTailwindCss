@@ -6,7 +6,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
-    <div className=" bg-purple-900 mb-0 pb-10 " id="Projects">
+    <div className=" bg-purple-900 mb-0 pb-10" id="Projects">
       <div className="text-center pt-20">
         <FontAwesomeIcon icon={faCode} className="text-9xl text-center " />
         <p className="text-7xl text-center font-bold mt-5 ">
@@ -22,7 +22,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="flex overflow-x-auto gap-10 snap-x snap-mandatory before:shrink-0 before:w-[1vw] after:shrink-0 after:w-[1vw] scrollbar-hide pb-10 ">
+      <div className="flex overflow-x-auto gap-10 snap-x snap-mandatory before:shrink-0 before:w-[1vw] after:shrink-0 after:w-[1vw] scrollbar-hide pb-10 sm:h-auto sm:overflow-y-hidden">
         {projects.map((project) => {
           return <Project project={project} />;
         })}

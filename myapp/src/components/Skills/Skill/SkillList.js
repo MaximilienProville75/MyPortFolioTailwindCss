@@ -4,7 +4,7 @@ export default class SkillList extends React.Component {
   render() {
     return (
       <>
-        <div className="flex flex-col mr-10  w-2/4 center  custombp:w-full  custombp:mb-24">
+        <div className="flex flex-col mr-10  w-2/4 center  sm:w-full  sm:mb-24 sm:mr-0">
           <div className="flex flex-col ">
             <p className="text-4xl font-bold first-letter:text-purple-500 first-letter:text-5xl mb-14 ring-4 rounded-3xl ring-purple-500 ring-offset-4 ring-offset-gray-900 p-10 bg-gray-700/50  shadow-purple-300/80 shadow-xl text-center animate-pulse ">
               {this.props.skills.title}

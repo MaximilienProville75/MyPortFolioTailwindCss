@@ -28,11 +28,11 @@ export default function Contact() {
 
   return (
     <div
-      className="bg-purple-900 pt-20 relative flex flex-row pb-20  "
+      className="bg-purple-900 pt-20 relative flex flex-row pb-20 sm:flex-col sm:m-auto sm:-mb-10"
       id="Contact"
     >
       {/* Map System */}
-      <div className="w-7/12 relative ring-8 ring-purple-500 h-auto ml-5 rounded-xl shadow-purple-300/80 shadow-2xl ">
+      <div className="w-7/12 relative ring-8 ring-purple-500 h-auto ml-5 rounded-xl shadow-purple-300/80 shadow-2xl sm:invisible ">
         <div className="w-screen">
           <iframe
             width="100%"
@@ -74,7 +74,7 @@ export default function Contact() {
       <form
         netlify
         name="contact"
-        className="ml-10 bg-zinc-900/80 p-10 w-full mr-5  flex flex-col ring-8 ring-purple-500 h-auto rounded-xl shadow-purple-300/80 shadow-2xl "
+        className="ml-10 bg-zinc-900/80 p-10 w-full mr-5  flex flex-col ring-8 ring-purple-500 h-auto rounded-xl shadow-purple-300/80 shadow-2xl  sm:w-full sm:m-auto"
         onSubmit={handleSubmit}
       >
         <FontAwesomeIcon
