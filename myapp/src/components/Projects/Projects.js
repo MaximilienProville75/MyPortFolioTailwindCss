@@ -22,7 +22,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="flex overflow-x-auto gap-10 snap-x snap-mandatory before:shrink-0 before:w-[1vw] after:shrink-0 after:w-[1vw] scrollbar-hide pb-10 sm:h-auto sm:overflow-y-hidden">
+      <div className="flex overflow-x-auto gap-10 snap-x snap-mandatory before:shrink-0 before:w-[1vw] after:shrink-0 after:w-[1vw] scrollbar-hide pb-10 sm:h-auto sm:overflow-y-hidden lg:snap-none lg:shrink lg:gap-5">
         {projects.map((project) => {
           return <Project project={project} />;
         })}

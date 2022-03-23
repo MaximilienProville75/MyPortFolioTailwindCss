@@ -9,12 +9,12 @@ export default function About() {
           <div className="">
             {/* Text Desc */}
             <div className="max-w-5xl flex flex-col justify-center mb-14 sm:max-w-none ">
-              <h1 className="text-7xl font-bold text-center first-letter:text-purple-500 first-letter:text-9xl">
+              <h1 className="text-7xl font-bold text-center first-letter:text-slate-600 dark:first-letter:text-purple-500 first-letter:text-9xl text-purple-500 dark:text-gray-400">
                 HI, I'm Max
                 <br />
                 Junior Front-End Developer
               </h1>
-              <p className="mt-10 text-lg text-center">
+              <p className="mt-10 text-lg text-center text-slate-600 dark:text-gray-400">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of

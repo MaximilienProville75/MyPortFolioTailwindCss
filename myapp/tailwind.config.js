@@ -1,5 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js, jsx, ts, tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       keyframes: {
@@ -14,9 +15,7 @@ module.exports = {
           },
         },
       },
-      animation: {
-        "fade-in-down": "fade-in-down 5s ease-out",
-      },
+      animation: { "fade-down": "0.6s ease forwards" },
       screens: { sm: { max: "910px" } },
       // md: { max: "910px" },
     },
