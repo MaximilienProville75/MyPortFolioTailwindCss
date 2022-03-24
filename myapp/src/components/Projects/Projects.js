@@ -6,19 +6,11 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
-    <div className=" bg-purple-900 mb-0 pb-10" id="Projects">
+    <div className=" bg-purple-900 pb-28 " id="Projects">
       <div className="text-center pt-20">
         <FontAwesomeIcon icon={faCode} className="text-9xl text-center " />
         <p className="text-7xl text-center font-bold mt-5 ">
           Projects I've Built
-        </p>
-        <p className="text-lg mt-14 p-10">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
         </p>
       </div>
 

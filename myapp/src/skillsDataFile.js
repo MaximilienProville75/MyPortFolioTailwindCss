@@ -22,10 +22,6 @@ export const skills = [
         name: "Tailwind",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
-      {
-        name: "Figma",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-      },
     ],
   },
   {
@@ -46,6 +42,10 @@ export const skills = [
       {
         name: "MongoDb",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      },
+      {
+        name: "Figma",
+        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
       },
     ],
   },
