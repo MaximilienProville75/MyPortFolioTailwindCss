@@ -1,6 +1,6 @@
 export const skills = [
   {
-    title: "Proficient In",
+    title: "Proficient In :",
     skills: [
       {
         name: "React",
@@ -29,7 +29,7 @@ export const skills = [
     ],
   },
   {
-    title: "Comfortable With",
+    title: "Comfortable With :",
     skills: [
       {
         name: "Redux",
