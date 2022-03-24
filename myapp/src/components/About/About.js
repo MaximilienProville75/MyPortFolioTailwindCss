@@ -4,8 +4,8 @@ import coderImg from "./coderImg.png";
 export default function About() {
   return (
     <>
-      <div className="relative mb-20 sm:-mb-[450px] sm:m-auto">
-        <div className="p-5 flex items-center max-w-screen sm:m-auto sm:flex-col">
+      <div className="relative  mb-20 sm:-mb-[450px] sm:m-auto mx-auto">
+        <div className="p-5 flex items-center max-w-screen sm:m-auto sm:flex-col ">
           <div className="">
             {/* Text Desc */}
             <div className="max-w-5xl flex flex-col justify-center mb-14 sm:max-w-none ">

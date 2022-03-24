@@ -8,7 +8,7 @@ export const projects = [
     technology: ["React.JS", "Redux.JS", "Firebase", "Tailwind"],
     description:
       "Social Media , powered by FireBase / React / Redux / Tailwinds",
-    picture: "SocialNet.png",
+    picture: "SocialNet-min.png",
   },
   {
     id: 1,
@@ -18,7 +18,7 @@ export const projects = [
     gitHub: "//github.com/MaximilienProville75/Proville_P14_23022022",
     technology: ["HTML", "CSS", "React.JS"],
     description: "Faites passer une librairie jQuery vers React",
-    picture: "HrNet.png",
+    picture: "HrNet-min.png",
   },
   {
     id: 1,
@@ -30,7 +30,7 @@ export const projects = [
     technology: ["React.JS", "MongoDB", "Redux.JS", "CSS"],
     description:
       "Bank Dashboard with login form and redirection to personal account / data",
-    picture: "ArgentBank.png",
+    picture: "ArgentBank-min.png",
   },
   {
     id: 1,
@@ -42,7 +42,7 @@ export const projects = [
     technology: ["React.JS", "Server", "CSS"],
     description:
       "Fitness Dashboard fetching data from a server depending on the user route",
-    picture: "Sportsee.png",
+    picture: "Sportsee-min.png",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ export const projects = [
     technology: ["React.JS", "HTML", "CSS"],
     description:
       "React Airbnb Copy, fetching data fomr a json files , routing to different url depending the location ID",
-    picture: "Kasa.png",
+    picture: "Kasa-min.png",
   },
   {
     id: 3,
@@ -65,7 +65,7 @@ export const projects = [
     gitHub: "//github.com/MaximilienProville75/P10_Learn-Home",
     technology: ["Figma"],
     description: "Design personel de site de soutient scolaire",
-    picture: "LearnAtHome.png",
+    picture: "LearnAtHome-min.png",
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ export const projects = [
     technology: ["HTML", "CSS", "JavaScript", "React.JS"],
     description:
       "React App for custom playlists that combines multiple components, interactive search functionality, and requests to the Spotify API.",
-    picture: "Jamming.png",
+    picture: "Jamming-min.png",
   },
   {
     id: 5,
@@ -87,7 +87,7 @@ export const projects = [
     gitHub: "//github.com/MaximilienProville75/Ravenous_React",
     technology: ["HTML", "CSS", "JavaScript", "React.JS"],
     description: "Copie du site Yelp",
-    picture: "Ravenous.png",
+    picture: "Ravenous-min.png",
   },
   {
     id: 6,
@@ -97,7 +97,7 @@ export const projects = [
     gitHub: "//github.com/MaximilienProville75/ProvilleMaximilien_4",
     technology: ["HTML", "css", "JavaScript"],
     description: "Landing page pour inscription de tournois de jeux video",
-    picture: "GameOn.png",
+    picture: "GameOn-min.png",
   },
   {
     id: 7,
@@ -108,7 +108,7 @@ export const projects = [
     gitHub: "//github.com/MaximilienProville75/ProvilleMaximilien_P6_01082021",
     technology: ["HTML", "CSS", "JavaScript"],
     description: "Site de photographie.",
-    picture: "FishEyes.png",
+    picture: "FishEyes-min.png",
   },
   {
     id: 8,
@@ -118,7 +118,7 @@ export const projects = [
     gitHub: "//github.com/MaximilienProville75/ProvilleMaximilien_P7",
     technology: ["HTML", "CSS", "JavaScript"],
     description: "Algorithme de recherche de recette",
-    picture: "Les Petits Plats.png",
+    picture: "Les Petits Plats-min.png",
   },
 
   {
@@ -130,7 +130,7 @@ export const projects = [
     technology: ["HTML", "CSS"],
     description:
       "Premier projet realisé, le design s'approche d'un site de reservation d'hôtel.",
-    picture: "Reservia.png",
+    picture: "Reservia-min.png",
   },
   {
     id: 10,
@@ -141,6 +141,6 @@ export const projects = [
     technology: ["HTML", "SASS"],
     description:
       "Le design de ce projet se rapproche d'un site de commande de plats ",
-    picture: "ohMyFood.png",
+    picture: "ohMyFood-min.png",
   },
 ];
