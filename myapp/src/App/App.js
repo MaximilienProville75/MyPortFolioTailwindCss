@@ -22,8 +22,8 @@ function App() {
       <Skills />
       <img src={wave4} alt="wave2" className="w-screen relative" />
       <TimeLine />
-      <img src={wave5} alt="wave2" className="w-screen relative" />
-      <img src={wave3} alt="wave3" className="w-screen relative" />
+      {/* <img src={wave5} alt="wave2" className="w-screen relative" />
+      <img src={wave3} alt="wave3" className="w-screen relative" /> */}
       <Contact />
     </main>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Toggle from "../../Theme/ThemeToggle";
+import LangToggle from "../../Lang/LangToggle";
 
 export default function Navbar() {
   return (
@@ -17,6 +18,7 @@ export default function Navbar() {
             Skills
           </a>
           <Toggle />
+          <LangToggle />
         </nav>
         <div className="hover:text-purple-500 sm:text-white">
           <a href="#Contact">

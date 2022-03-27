@@ -46,7 +46,7 @@ export default function About() {
           </div>
 
           <div className="flex  justify-center sm:invisible">
-            <img className="w-10/12 h-full" alt="Hero" src={coderImg} />
+            <img className="w-10/12 h-full fade" alt="Hero" src={coderImg} />
           </div>
         </div>
       </div>

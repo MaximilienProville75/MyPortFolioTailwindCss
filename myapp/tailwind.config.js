@@ -15,7 +15,17 @@ module.exports = {
           },
         },
       },
-      animation: { "fade-down": "0.6s ease forwards" },
+      animation: {
+        fade: "fadeOut 5s ease-in-out",
+      },
+
+      // that is actual animation
+      keyframes: (theme) => ({
+        fadeOut: {
+          "0%": { opacity: theme("0") },
+          "100%": { opacity: theme("1") },
+        },
+      }),
       screens: { sm: { max: "910px" } },
       // md: { max: "910px" },
     },

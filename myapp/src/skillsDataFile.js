@@ -47,30 +47,9 @@ export const skills = [
         name: "Figma",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
       },
-    ],
-  },
-  {
-    title: "Ready To Explore:",
-    skills: [
       {
         name: "TypeScript",
         img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
-      {
-        name: "Svelte",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
-      },
-      {
-        name: "NextJS",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
-      },
-      {
-        name: "Flutter",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
-      },
-      {
-        name: "AwS",
-        img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
       },
     ],
   },

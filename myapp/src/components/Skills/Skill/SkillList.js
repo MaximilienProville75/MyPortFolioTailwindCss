@@ -6,7 +6,7 @@ export default class SkillList extends React.Component {
 
     return (
       <>
-        <div className=" m-auto center  sm:w-full  sm:mb-24 sm:mr-0">
+        <div className=" m-auto center  sm:w-full  sm:mb-24 sm:mr-0 fade-left-init animate-fade-left [animation-delay:1200ms">
           <div className="flex flex-col w-2/4 m-auto ">
             <p
               className="text-2xl font-bold first-letter:text-purple-500 
