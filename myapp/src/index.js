@@ -5,11 +5,17 @@ import App from "./App/App";
 import reportWebVitals from "./reportWebVitals";
 
 import { ThemeProvider } from "./Theme/ThemeContext.js";
+import { LangProvider } from "./Lang/LangContext";
+
+const lang = navigator.language;
+console.log(lang);
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider>
-      <App />
+      <LangProvider>
+        <App />
+      </LangProvider>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

@@ -8,17 +8,19 @@ const LangToggle = () => {
 
   return (
     <div className="transition duration-500 ease-in-out rounded-full mt-1 sm:text-sm">
-      {lang === "dark" ? (
+      {lang === "En" ? (
         <img
           src={FrFlag}
+          alt=""
           onClick={() => setLang(lang === "En" ? "Fr" : "En")}
-          className="text-gray-400 dark:text-purple-500 text-2xl cursor-pointer sm:text-sm"
+          className="text-gray-400 dark:text-purple-500 text-2xl cursor-pointer sm:h-4"
         />
       ) : (
         <img
           src={UkFlag}
+          alt=""
           onClick={() => setLang(lang === "En" ? "Fr" : "En")}
-          className="text-gray-400 dark:text-purple-500 text-2xl cursor-pointer sm:text-sm"
+          className="text-gray-400 dark:text-purple-500 text-2xl cursor-pointer sm:h-4"
         />
       )}
     </div>

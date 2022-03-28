@@ -17,11 +17,13 @@ export default function Navbar() {
           <a className="hover:text-white " href="#Skills">
             Skills
           </a>
-          <Toggle />
-          <LangToggle />
         </nav>
-        <div className="hover:text-purple-500 sm:text-white">
-          <a href="#Contact">
+        <div className=" flex flex-row gap-10">
+          <div>
+            <LangToggle />
+            <Toggle />
+          </div>
+          <a href="#Contact" className="hover:text-purple-500 sm:text-white">
             Hire-Me <FontAwesomeIcon icon={faArrowRight} />
           </a>
         </div>

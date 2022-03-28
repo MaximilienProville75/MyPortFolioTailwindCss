@@ -1,5 +1,10 @@
 import React from "react";
 
+export const LangContext = React.createContext({
+  lang: "En",
+  setLanguage: () => {},
+});
+
 // const getInitialTheme = () => {
 //   if (typeof window !== "undefined" && window.localStorage) {
 //     const storedPrefs = window.localStorage.getItem("color-theme");
@@ -12,23 +17,20 @@ import React from "react";
 //       return "dark";
 //     }
 //   }
-
 //   return "light";
 // };
 
-export const LangContext = React.createContext();
-
-export const ThemeProvider = ({ initialTheme, children }) => {
-  const [lang, setLang] = React.useState("");
+export const LangProvider = ({ initialTheme, children }) => {
+  const [lang, setLang] = React.useState(LangContext);
 
   const rawSetTheme = (rawTheme) => {
-    const root = window.document.documentElement;
-    const isDark = rawTheme === "dark";
+    // const root = window.document.documentElement;
+    const isDark = rawTheme === "En";
 
-    root.classList.remove(isDark ? "light" : "dark");
-    root.classList.add(rawTheme);
+    // root.classList.remove(isDark ? "light" : "dark");
+    // root.classList.add(rawTheme);
 
-    localStorage.setItem("color-theme", rawTheme);
+    // localStorage.setItem("color-theme", rawTheme);
   };
 
   if (initialTheme) {
