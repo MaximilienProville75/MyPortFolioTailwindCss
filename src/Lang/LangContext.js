@@ -10,6 +10,7 @@ export const LangProvider = ({ initialTheme = "En", children }) => {
 
   const rawSetTheme = (rawTheme) => {
     const isEn = rawTheme === "En";
+    return isEn;
   };
 
   if (initialTheme) {

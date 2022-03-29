@@ -6,7 +6,6 @@ export default class Project extends React.Component {
   render() {
     const imgSrc = this.props.project.picture;
     const linkGitHub = this.props.project.gitHub;
-    const sourceLink = this.props.project.pageLink;
 
     return (
       <div className="Project shrink-0 w-6/12 mt-20 snap-center relative max-w-4xl">

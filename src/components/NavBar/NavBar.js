@@ -10,7 +10,9 @@ export default function Navbar() {
       <div className="Logo"></div>
       <div className="flex flex-row p-5 justify-between text-2xl font-bold sm:text-xs sm:p-3">
         <nav className=" flex justify-between w-3/12 sm:w-auto sm:gap-2">
-          <a className="text-white font-extrabold ">PROVILLE Maximilien</a>
+          <a className="text-white font-extrabold" href="/">
+            PROVILLE Maximilien
+          </a>
           <a className="hover:text-white " href="#Projects">
             Past Work
           </a>

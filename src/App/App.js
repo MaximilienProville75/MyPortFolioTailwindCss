@@ -24,7 +24,7 @@ function App() {
   const [contactText, setContactText] = useState("");
 
   React.useEffect(() => {
-    LangText.map((langs) => {
+    LangText.forEach((langs) => {
       if (langs.langs === lang) {
         setAboutText(langs.texts[0].text);
         setProjectText(langs.texts[1].text);
