@@ -11,9 +11,7 @@ import { TimeLine } from "../components/TimeLine/TimeLine";
 
 import wave1 from "../assets/WaveSvg/layered-waves-haikei.svg";
 import wave2 from "../assets/WaveSvg/layered-waves-haikei2.svg";
-import wave3 from "../assets/WaveSvg/layered-waves-haikei3.svg";
 import wave4 from "../assets/WaveSvg/layered-waves-haikei-7.svg";
-import wave5 from "../assets/WaveSvg/layered-waves-haikei-6.svg";
 
 import { LangText } from "../Lang/LangText";
 
@@ -47,8 +45,6 @@ function App() {
       <Skills text={skillText} />
       <img src={wave4} alt="wave2" className="w-screen relative" />
       <TimeLine text={timeLineText} />
-      {/* <img src={wave5} alt="wave2" className="w-screen relative" />
-      <img src={wave3} alt="wave3" className="w-screen relative" /> */}
       <Contact text={contactText} />
     </main>
   );

@@ -5,11 +5,11 @@ export const LangContext = React.createContext({
   setLanguage: () => {},
 });
 
-export const LangProvider = ({ initialTheme, children }) => {
-  const [lang, setLang] = React.useState(LangContext, "En");
+export const LangProvider = ({ initialTheme = "En", children }) => {
+  const [lang, setLang] = React.useState("En");
 
   const rawSetTheme = (rawTheme) => {
-    const isDark = rawTheme === "En";
+    const isEn = rawTheme === "En";
   };
 
   if (initialTheme) {

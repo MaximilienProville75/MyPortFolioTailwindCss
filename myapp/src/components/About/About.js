@@ -2,10 +2,9 @@ import React from "react";
 import coderImg from "./coderImg.png";
 
 export default function About(text) {
-  console.log(text);
   return (
     <>
-      <div className="relative  mb-20 sm:-mb-[450px] sm:m-auto text-center ">
+      <div className="relative  mb-20 sm:-mb-[450px] sm:m-auto text-center pt-10">
         <div className="p-5 flex items-center justify-center sm:m-auto sm:flex-col ">
           <div className="">
             {/* Text Desc */}

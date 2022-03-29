@@ -6,7 +6,7 @@ import LangToggle from "../../Lang/LangToggle";
 
 export default function Navbar() {
   return (
-    <div className="bg-gray-800 sticky top-0 z-10 ">
+    <div className="bg-gray-800 fixed w-full top-0 z-10 ">
       <div className="Logo"></div>
       <div className="flex flex-row p-5 justify-between text-2xl font-bold sm:text-xs sm:p-3">
         <nav className=" flex justify-between w-3/12 sm:w-auto sm:gap-2">

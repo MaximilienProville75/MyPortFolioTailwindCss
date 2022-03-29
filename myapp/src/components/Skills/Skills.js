@@ -5,6 +5,8 @@ import { faBrain } from "@fortawesome/free-solid-svg-icons";
 import { skills } from "../../skillsDataFile";
 
 export default function Skills(text) {
+  const txtLs = text.text.textList;
+  console.log(txtLs);
   return (
     <div className="m-auto" id="Skills">
       <div className="text-center pt-20">
@@ -16,11 +18,10 @@ export default function Skills(text) {
           {text.text.main}
         </p>
       </div>
-
       <div className="mt-12 flex justify-center ">
         <div className="flex flex-col flex-wrap justify-center align-center w-5/6 m-auto  sm:flex-col">
           {skills.map((skill) => {
-            return <SkillList skills={skill} text={text.text} />;
+            return <SkillList skills={skill} text={txtLs} key={skill.id} />;
           })}
         </div>
       </div>
