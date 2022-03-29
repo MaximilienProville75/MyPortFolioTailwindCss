@@ -66,7 +66,7 @@ export const LangText = [
       },
       {
         title: "Projects",
-        text: "Projets que j'ai réalisés",
+        text: "Projets que j'ai réalisé",
       },
       {
         title: "Skills",
