@@ -5,7 +5,7 @@ export const LangText = [
       {
         title: "About",
         text: {
-          main: "With communication comes understanding, and with understanding comes empathy and cooperation. The world needs this, and programming makes this easier and clearer.That’s why I’m dedicated to Front end programming. Specialized in react, I. look forward to improving the user's experience and interactions within web apps.",
+          main: "With communication comes understanding, and with understanding comes empathy and cooperation. The world needs this, and programming makes this easier and clearer. That’s why I’m dedicated to Front end programming. Specialized in react, I look forward to improving the user's experience and interactions within web apps.",
           button1: "See Past Projects",
           button2: "Work With Me",
         },
