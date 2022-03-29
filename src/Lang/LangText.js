@@ -49,7 +49,7 @@ export const LangText = [
       },
       {
         title: "Hire Me",
-        text: "If you found yourself interested in my profile and looking forward to contacting me? Don’t hesitate to fill out this form and I will contact you back in the briefest delay possible. I hope of being a person of interest to you",
+        text: "If you found yourself interested in my profile and looking forward to contact me? Don’t hesitate to fill out this form and I will contact you back in the briefest delay possible. I hope of being a person of interest to you",
       },
     ],
   },
@@ -85,7 +85,7 @@ export const LangText = [
           title1: "Diplome en Informatique, Bac+3/4",
           text1:
             "Obtention d'un diplôme bac +3/4 de niveau européen 6 en programmation front-end intitulé  'Développeur d'application - JavaScript React'  remis par OpenClassroom ,  un établissement privé d'enseignement à distance déclaré au rectorat de l'Académie de Paris",
-          title2: "Diplome Universitaire en Business & Admniistration, M1",
+          title2: "Diplome Universitaire en Business & Administration, M1",
           text2:
             "Détenteur d'un Bachelor de l'université SouthWesternUniversity of Finance and Economics en Business et Administration",
           title3: "Etude linguistique intensive : Mandarin HSK4",
