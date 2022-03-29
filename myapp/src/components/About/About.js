@@ -1,7 +1,8 @@
 import React from "react";
 import coderImg from "./coderImg.png";
 
-export default function About() {
+export default function About(text) {
+  console.log(text);
   return (
     <>
       <div className="relative  mb-20 sm:-mb-[450px] sm:m-auto text-center ">
@@ -15,12 +16,7 @@ export default function About() {
                 Junior Front-End Developer
               </h1>
               <p className="mt-10 text-lg text-center text-slate-600 dark:text-gray-400">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                {text.text.main}
               </p>
             </div>
             {/* Button */}
@@ -30,7 +26,7 @@ export default function About() {
                   href="#Projects"
                   className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600  shadow-purple-300/80 shadow-lg hover:scale-150 sm:text-sm"
                 >
-                  See Past Project
+                  {text.text.button1}
                 </a>
               </div>
               <div className="">
@@ -39,7 +35,7 @@ export default function About() {
                   className="text-2xl ring-4 p-2 rounded-md ring-purple-500 bg-gray-700 text-gray-300 font-bold hover:bg-gray-600 hover:scale-150  animate-pulse shadow-purple-300/80 shadow-lg
                   bg-gradient-to-r from-purple-700 to-purple-400  sm:text-sm"
                 >
-                  Work With Me
+                  {text.text.button2}
                 </a>
               </div>
             </div>
